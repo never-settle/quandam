@@ -105,35 +105,35 @@ Class SetupService {
     }
 
     /**
-     * Generates DAO-Classes for /api/entityg
+     * Generates DAO-Classes for /api/entity
      **/
     public function generateEntities() {
 
         foreach ($this->entities as $entity) {
 
+            $projectName = "quandam";
+
+            // simple entity name
             $entityName = $entity;
             $entityNameUc = ucfirst($entity);
             $entityNamePlural = $this->pluralize($entityName);
-            $projectName = "quandam";
 
-            $p = explode("_", $this->relations[$entity]);
-            if (strcmp($p[2], $entityName)) {
-                $relationName = $p[2];
-            } else {
-                $relationName = $p[0];
-            }
-            $relationNameUc = ucfirst($relationName);
+            // relational entities
+            $relationName = $this->getRelationName($entityName);
             $relationNamePlural = $this->pluralize($relationName);
             $relationTable = $this->relations[$entity];
 
+            // get all fields for dao and make them private
             $fields = $this->getFieldsFromEntity($entityName);
             $field_str = "";
             for ($j = 0; $j < sizeof($fields); $j++) {
                 $field_str .= "private $" . $fields[$j]["COLUMN_NAME"] . ";\n    ";
             }
 
+            // get file contents (template)
             $fileContents = file_get_contents(API . "templates" . DS . "dao.template");
 
+            // replace template placeholders with values
             $fileContents = str_replace("[PROJECT_NAME]", $projectName, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME]", $entityName, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME_UC]", $entityNameUc, $fileContents);
@@ -145,6 +145,7 @@ Class SetupService {
             $fileContents = str_replace("[RELATION_NAME_PLURAL]", $relationNamePlural, $fileContents);
             $fileContents = str_replace("[RELATION_TABLE]", $relationTable, $fileContents);
 
+            // write file
             file_put_contents(API . "entity" . DS . $entityName . "DAO.php", $fileContents);
 
         }
@@ -161,6 +162,15 @@ Class SetupService {
                 return $singular . 'es';
             default:
                 return $singular . 's';
+        }
+    }
+
+    private function getRelationName($entityName) {
+        $p = explode("_", $this->relations[$entityName]);
+        if (strcmp($p[2], $entityName)) {
+            $relationName = $p[2];
+        } else {
+            $relationName = $p[0];
         }
     }
 

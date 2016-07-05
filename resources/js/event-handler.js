@@ -1,7 +1,9 @@
 (function () {
 
+    console.log("EventHandler is listening ...");
     var vc  = viewController.getInstance();
     var api = apiGenerator.getInstance();
+
     vc.startSetup();
 
     $(document).on("click", ".js-btn-continue", function () {

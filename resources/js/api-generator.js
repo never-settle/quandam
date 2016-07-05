@@ -15,7 +15,6 @@ var apiGenerator = (function () {
         return {
 
             generateController: function () {
-                console.log("generating...");
 
                 var params = {};
                 inputFields.each(function () {
@@ -29,10 +28,14 @@ var apiGenerator = (function () {
                     success: function (response) {
                         console.log("success");
                         console.log(response);
+
+                        // return success for ViewController Actions;
                     },
                     error: function (response) {
                         console.log("error");
                         console.log(response);
+
+                        // return error for ViewController Actions;
                     }
                 });
 
