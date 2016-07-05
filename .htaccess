@@ -1,0 +1,23 @@
+# Use the Controller to render the view with context variables
+# -----------------------------------------------------------------------------
+Options +FollowSymlinks
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ app/controller/impl/$1Controller.php [NC,L]
+
+# Rest API Routing
+# -----------------------------------------------------------------------------
+# USER
+RewriteRule ^rest/1.0/user$                        api/index.php?request=all-user [nc,qsa]
+RewriteRule ^rest/1.0/user/([0-9]+)$               api/index.php?request=user&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/user/([0-9]+)/(firstname)$   api/index.php?request=user&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/user/([0-9]+)/(id)$          api/index.php?request=user&id=$1&field=$2 [nc,qsa]
+
+# Example for relational data
+# -----------------------------------------------------------------------------
+# USER HAS RELATION
+# RewriteRule ^rest/1.0/user/([0-9]+)/(relation)$   api/index.php?request=user&id=$1&field=$2 [nc,qsa]
+# RewriteRule ^rest/1.0/relation/([0-9]+)/(user)$   api/index.php?request=relation&id=$1&field=$2 [nc,qsa]
+

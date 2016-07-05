@@ -1,0 +1,116 @@
+// @mixin box-shadow-2($args1, $args2) {
+//     -webkit-box-shadow: $args1, $args2;
+//     -moz-box-shadow: $args1, $args2;
+//     box-shadow: $args1, $args2;
+// }
+
+$right-space-vars: (
+5 right r,
+10 right r,
+15 right r,
+20 right r,
+25 right r,
+30 right r,
+35 right r,
+40 right r,
+45 right r,
+50 right r,
+);
+
+$bottom-space-vars: (
+5 bottom b,
+10 bottom b,
+15 bottom b,
+20 bottom b,
+25 bottom b,
+30 bottom b,
+35 bottom b,
+40 bottom b,
+45 bottom b,
+50 bottom b
+);
+
+$top-space-vars: (
+5 top t,
+10 top t,
+15 top t,
+20 top t,
+25 top t,
+30 top t,
+35 top t,
+40 top t,
+45 top t,
+50 top t
+);
+
+$left-space-vars: (
+5 left l,
+10 left l,
+15 left l,
+20 left l,
+25 left l,
+30 left l,
+35 left l,
+40 left l,
+45 left l,
+50 left l
+);
+
+@mixin generate-spacing-classes($space-vars) {
+    @each $space in $space-vars {
+        .m#{nth($space, 3)}-#{nth($space, 1)} {
+            margin-#{nth($space, 2)}: #{nth($space, 1)}px !important;
+        }
+        .p#{nth($space, 3)}-#{nth($space, 1)} {
+            padding-#{nth($space, 2)}: #{nth($space, 1)}px !important;
+        }
+        .p-#{nth($space, 1)} {
+            padding: #{nth($space, 1)}px !important;
+        }
+    }
+}
+
+.no-p {
+    padding: 0 !important;
+}
+
+.no-pt {
+    padding-top: 0 !important;
+}
+
+.no-pr {
+    padding-right: 0 !important;
+}
+
+.no-pb {
+    padding-bottom: 0 !important;
+}
+
+.no-pl {
+    padding-left: 0 !important;
+}
+
+.no-m {
+    margin: 0 !important;
+}
+
+.no-mt {
+    margin-top: 0 !important;
+}
+
+.no-mr {
+    margin-right: 0 !important;
+}
+
+.no-mb {
+    margin-bottom: 0 !important;
+}
+
+.no-ml {
+    margin-left: 0 !important;
+}
+
+@include generate-spacing-classes($left-space-vars);
+@include generate-spacing-classes($right-space-vars);
+@include generate-spacing-classes($bottom-space-vars);
+@include generate-spacing-classes($top-space-vars);

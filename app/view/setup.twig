@@ -1,0 +1,113 @@
+{% extends "base.twig" %}
+{% block title %} Media {% endblock %}
+{% block content %}
+    <h1 class="no-m">Welcome to Quandam</h1>
+    Start simple by configuring Quandam or <a href="#" class="indigo-text text-accent-2">delete setup and start from scratch!.</a>
+
+    <div class="wizard wizard-right">
+        <h5>Database Settings</h5>
+        <form class="form">
+            <label>Hostname</label>
+            <input id="server-ip" class="form-input server-config" type="text" name="server-ip" placeholder="127.0.0.1" autofocus>
+            <label>Username</label>
+            <input id="server-ip" class="form-input server-config" type="text" name="server-ip" placeholder="root">
+            <label>Password</label>
+            <input id="server-ip" class="form-input server-config" type="text" name="server-ip" placeholder="secret">
+            <label>Database Name</label>
+            <input id="server-ip" class="form-input server-config" type="text" name="server-ip" placeholder="quandam">
+        </form>
+        <div class="js-btn-continue btn btn-large bottom-right indigo accent-2">Save & Continue...</div>
+    </div>
+    <div class="wizard wizard-left">
+        <h5>What your Database should look like...</h5>
+        <p>
+            Quandam is following a naming-pattern. Here are some examples.<br/>
+            <br/>
+        </p>
+        <div class="entity-wrapper">
+            <div class="entity">
+                <div class="entity-header">user</div>
+                <div class="entity-body">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Type</td>
+                            <td>PK</td>
+                        </tr>
+                        <tr>
+                            <td class="teal-text text-lighten-3">id</td>
+                            <td>int</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>firstname</td>
+                            <td>varchar</td>
+                            <td>no</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="entity">
+                <div class="entity-header">user_has_address</div>
+                <div class="entity-body">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Type</td>
+                            <td>FK</td>
+                        </tr>
+                        <tr>
+                            <td class="teal-text text-lighten-3">user_id</td>
+                            <td>int</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td class="indigo-text text-lighten-3">address_id</td>
+                            <td>int</td>
+                            <td>yes</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="entity">
+                <div class="entity-header">address</div>
+                <div class="entity-body">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Type</td>
+                            <td>PK</td>
+                        </tr>
+                        <tr>
+                            <td class="indigo-text text-lighten-3">id</td>
+                            <td>int</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>postcode</td>
+                            <td>int</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>city</td>
+                            <td>varchar</td>
+                            <td>no</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <div class="js-btn-generate btn btn-large teal accent-4">Generate!</div>
+        </div>
+    </div>
+
+    <div class="loading">
+        <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        </svg>
+    </div>
+
+    </div>
+
+{% endblock %}

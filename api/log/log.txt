@@ -1,0 +1,503 @@
+[02.07.2016 11:02:27] [INFO] deserializing response to json string
+[02.07.2016 11:10:22] [INFO] deserializing response to json string
+[02.07.2016 11:10:23] [INFO] deserializing response to json string
+[02.07.2016 11:10:23] [INFO] deserializing response to json string
+[02.07.2016 11:10:24] [INFO] deserializing response to json string
+[02.07.2016 11:10:24] [INFO] deserializing response to json string
+[02.07.2016 11:15:33] [INFO] deserializing response to json string
+[02.07.2016 11:15:38] [INFO] deserializing response to json string
+[02.07.2016 11:16:03] [INFO] deserializing response to json string
+[02.07.2016 11:16:13] [INFO] deserializing response to json string
+[02.07.2016 11:16:26] [INFO] deserializing response to json string
+[02.07.2016 11:16:34] [INFO] deserializing response to json string
+[02.07.2016 11:16:55] [INFO] deserializing response to json string
+[02.07.2016 11:16:55] [INFO] deserializing response to json string
+[02.07.2016 11:16:56] [INFO] deserializing response to json string
+[02.07.2016 11:16:56] [INFO] deserializing response to json string
+[02.07.2016 11:17:29] [INFO] deserializing response to json string
+[02.07.2016 11:18:51] [INFO] deserializing response to json string
+[02.07.2016 11:18:51] [INFO] deserializing response to json string
+[02.07.2016 11:19:34] [INFO] deserializing response to json string
+[02.07.2016 11:19:34] [INFO] deserializing response to json string
+[02.07.2016 11:19:38] [INFO] deserializing response to json string
+[02.07.2016 11:20:48] [INFO] deserializing response to json string: {"1":"Klaus"}
+[02.07.2016 11:21:14] [INFO] deserializing response to json string: {"1":"Klaus"}
+[02.07.2016 11:24:38] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:25:49] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:27:44] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:27:45] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:27:57] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:28:06] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:28:12] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:28:49] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:28:50] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:28:59] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:29:44] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:31:54] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:32:02] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:32:03] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:32:03] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:32:53] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:36:54] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:37:12] [INFO] deserializing response to json string: {"name":"Peter"}
+[02.07.2016 11:38:00] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:29] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:36] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:37] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:37] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:38] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:38] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:38:52] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:39:09] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:39:22] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:41:19] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:44:52] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:44:55] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:45:41] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:45:42] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:55:56] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:55:56] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:56:10] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 11:56:18] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:58:29] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 11:59:02] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 12:43:47] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:45:24] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Klaus"},{"id":"3","firstname":"Dieter"}]
+[02.07.2016 12:45:41] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:46:01] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:46:47] [INFO] deserializing response to json string: {"1":{"id":"2","firstname":"Klaus"}}
+[02.07.2016 12:46:58] [INFO] deserializing response to json string: {"1":{"id":"2","firstname":"Klaus"}}
+[02.07.2016 12:47:06] [INFO] deserializing response to json string: {"1":{"id":"2","firstname":"Klaus"}}
+[02.07.2016 12:47:08] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:47:10] [INFO] deserializing response to json string: {"1":{"id":"2","firstname":"Klaus"}}
+[02.07.2016 12:47:12] [INFO] deserializing response to json string: {"2":{"id":"3","firstname":"Dieter"}}
+[02.07.2016 12:47:33] [INFO] deserializing response to json string: {"2":{"id":"3","firstname":"Dieter"}}
+[02.07.2016 12:47:47] [INFO] deserializing response to json string: {"id":"3","firstname":"Dieter"}
+[02.07.2016 12:47:50] [INFO] deserializing response to json string: {"id":"2","firstname":"Klaus"}
+[02.07.2016 12:47:59] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 12:48:00] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 12:48:01] [INFO] deserializing response to json string: {"id":"2","firstname":"Klaus"}
+[02.07.2016 12:48:03] [INFO] deserializing response to json string: {"id":"3","firstname":"Dieter"}
+[02.07.2016 12:48:05] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:48:25] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:48:28] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 12:48:28] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 12:48:30] [INFO] deserializing response to json string: {"id":"2","firstname":"Klaus"}
+[02.07.2016 12:48:32] [INFO] deserializing response to json string: {"firstname":"Klaus"}
+[02.07.2016 12:48:57] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 12:49:12] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 12:49:30] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Klaus"},{"id":"3","firstname":"Dieter"}]
+[02.07.2016 12:49:39] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:49:40] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 12:50:02] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Klaus"},{"id":"3","firstname":"Dieter"}]
+[02.07.2016 12:50:03] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Klaus"},{"id":"3","firstname":"Dieter"}]
+[02.07.2016 12:50:04] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Klaus"},{"id":"3","firstname":"Dieter"}]
+[02.07.2016 12:50:04] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Klaus"},{"id":"3","firstname":"Dieter"}]
+[02.07.2016 12:50:20] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 12:50:23] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 12:50:29] [INFO] deserializing response to json string: {"firstname":"Klaus"}
+[02.07.2016 12:58:43] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 12:59:16] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 13:00:29] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:00:54] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 13:00:57] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 13:01:00] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 13:01:57] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 13:02:05] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:02:05] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:04:44] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"}]
+[02.07.2016 13:04:48] [INFO] deserializing response to json string: {"id":"1","name":"Laser-Eyes"}
+[02.07.2016 13:04:52] [INFO] deserializing response to json string: {"name":null}
+[02.07.2016 13:05:50] [INFO] deserializing response to json string: {"name":"Laser-Eyes"}
+[02.07.2016 13:05:52] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 13:05:56] [INFO] deserializing response to json string: {"name":"Laser-Eyes"}
+[02.07.2016 13:06:12] [INFO] deserializing response to json string: {"id":"1","name":"Laser-Eyes"}
+[02.07.2016 13:06:16] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"}]
+[02.07.2016 13:12:59] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:13:01] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:13:12] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:13:39] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:13:46] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:22] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:37] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:38] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:39] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:39] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:39] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:43] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:43] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:14:43] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:15:07] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:15:21] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:15:27] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"}]}
+[02.07.2016 13:15:30] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 13:16:39] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 13:16:42] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:16:48] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:16:51] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:20:44] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 13:20:47] [INFO] deserializing response to json string: {"id":"1","name":"Laser-Eyes"}
+[02.07.2016 13:21:11] [INFO] deserializing response to json string: {"users":null}
+[02.07.2016 13:22:22] [INFO] deserializing response to json string: {"users":null}
+[02.07.2016 13:22:26] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:22:36] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:22:41] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 13:22:50] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:22:53] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 13:23:10] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 13:23:12] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:23:14] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:23:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:23:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:23:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:23:17] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:23:28] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 13:25:03] [INFO] deserializing response to json string: {"users":null}
+[02.07.2016 13:25:12] [INFO] deserializing response to json string: {"users":null}
+[02.07.2016 13:26:30] [INFO] deserializing response to json string: {"users":null}
+[02.07.2016 13:26:32] [INFO] deserializing response to json string: {"users":null}
+[02.07.2016 13:27:06] [INFO] deserializing response to json string: {"users":[{"id":"2","firstname":"Clark"}]}
+[02.07.2016 13:27:17] [INFO] deserializing response to json string: {"users":[{"id":"2"}]}
+[02.07.2016 13:27:22] [INFO] deserializing response to json string: {"users":[{"id":"2"},{"id":"3"}]}
+[02.07.2016 13:28:00] [INFO] deserializing response to json string: {"user":null}
+[02.07.2016 13:28:01] [INFO] deserializing response to json string: {"user":null}
+[02.07.2016 13:28:25] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 13:28:28] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 13:28:29] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:28:30] [INFO] deserializing response to json string: {"superpower":null}
+[02.07.2016 13:28:46] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:28:59] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:29:00] [INFO] deserializing response to json string: {"user":[{"id":"2"},{"id":"3"}]}
+[02.07.2016 13:29:04] [INFO] deserializing response to json string: {"id":"3","name":"Intellect"}
+[02.07.2016 13:29:07] [INFO] deserializing response to json string: {"id":"1","name":"Laser-Eyes"}
+[02.07.2016 13:29:09] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:29:13] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 13:29:32] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 13:29:33] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:29:34] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:29:34] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:29:34] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:30:23] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:30:24] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 13:30:28] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 13:30:28] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 13:30:58] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:31:01] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 13:31:06] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 13:31:11] [INFO] deserializing response to json string: {"error":"No users found!"}
+[02.07.2016 13:31:36] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 13:47:12] [INFO] deserializing response to json string: {"error":"Connection to Database timed out: PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Der angegebene Host ist unbekannt.  in D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\util\\Database.php:40\nStack trace:\n#0 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\util\\Database.php(40): PDO->__construct('mysql:host=loca...', 'root', '', Array)\n#1 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\entity\\UserDAO.php(32): Database->__construct()\n#2 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\controller\\UserRestController.php(44): UserDAO->__construct('7')\n#3 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\index.php(31): UserRestController->getUser('7')\n#4 {main}\n\nNext PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Der angegebene Host ist unbekannt.  in D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\util\\Database.php:40\nStack trace:\n#0 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\util\\Database.php(40): PDO->__construct('mysql:host=loca...', 'root', '', Array)\n#1 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\entity\\UserDAO.php(32): Database->__construct()\n#2 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\controller\\UserRestController.php(44): UserDAO->__construct('7')\n#3 D:\\_web\\xampp-7.0\\htdocs\\quandam\\app\\index.php(31): UserRestController->getUser('7')\n#4 {main}"}
+[02.07.2016 13:47:34] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[02.07.2016 13:47:59] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 13:48:02] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 13:48:02] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 14:21:29] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 14:22:03] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 14:22:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 14:51:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:51:23] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:54:35] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:54:49] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:55:00] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:58:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:58:17] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:58:44] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:58:47] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 14:59:20] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:10] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:11] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:12] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:12] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:12] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:12] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:13] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:13] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:13] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:13] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:13] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:15] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:15] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:15] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:15] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:15] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:15] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:16] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:16] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:31] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:00:46] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:01:48] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:01:50] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:03:48] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:07:05] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:07:42] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:07:42] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:07:44] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:07:44] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:07:52] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:07:52] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:07:59] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:07:59] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:09:06] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:09:06] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:09:06] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:09:06] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:09:45] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:10:43] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:10:58] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:11:08] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:11:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:11:25] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:11:33] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:12:14] [INFO] deserializing response to json string: {"superpower":[]}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:12:38] [INFO] deserializing response to json string: {"superpower":[]}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:12:45] [INFO] deserializing response to json string: {"superpower":[]}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:12:55] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:13:09] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:13:17] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:13:26] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:13:27] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:13:27] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:13:27] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:13:30] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:13:30] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:13:35] [INFO] deserializing response to json string: {"superpower":[]}
+[02.07.2016 15:14:05] [INFO] deserializing response to json string: {"superpower":[]}
+[02.07.2016 15:14:19] [INFO] deserializing response to json string: {"superpower":[]}
+[02.07.2016 15:14:28] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:14:32] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:14:34] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:14:55] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:14:57] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"id":"2","firstname":"Clark"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"id":"3","firstname":"Bruce"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"id":"1"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"firstname":"Clark"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"id":"2"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"firstname":"Bruce"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"id":"3"}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Laser-Eyes"},{"name":"Intellect"}]}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"superpower":[{"name":"Intellect"}]}
+[02.07.2016 15:48:16] [INFO] deserializing response to json string: {"error":"No user found!"}
+[02.07.2016 15:52:36] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:52:54] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[02.07.2016 15:52:57] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:52:58] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[02.07.2016 15:53:02] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"}]
+[02.07.2016 15:53:09] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 15:53:11] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 15:53:18] [INFO] deserializing response to json string: {"user":[{"id":"2"}]}
+[02.07.2016 15:53:24] [INFO] deserializing response to json string: {"user":[{"id":"1"}]}
+[02.07.2016 15:53:26] [INFO] deserializing response to json string: {"user":[{"id":"2"},{"id":"3"}]}
+[02.07.2016 16:03:36] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[02.07.2016 16:09:34] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 16:09:36] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Wall-Crawling"}]}
+[02.07.2016 16:10:05] [INFO] deserializing response to json string: {"user":[{"id":"2"},{"id":"3"}]}
+[03.07.2016 11:41:38] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 11:41:41] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 11:41:43] [INFO] deserializing response to json string: {"firstname":"Peter"}
+[03.07.2016 12:22:43] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 12:22:43] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 12:22:44] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 12:22:44] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 12:22:44] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 12:24:13] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:13] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:21] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:22] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:22] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:22] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:23] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:24] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:24:24] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:27:17] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:27:18] [INFO] deserializing response to json string: {"id":"1","firstname":"Peter"}
+[03.07.2016 12:27:19] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 15:38:20] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 15:38:39] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 15:38:46] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 15:56:29] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[03.07.2016 16:02:35] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter"},{"id":"2","firstname":"Clark"},{"id":"3","firstname":"Bruce"}]
+[04.07.2016 17:19:41] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter Parker"},{"id":"2","firstname":"Clark Kent"},{"id":"3","firstname":"Bruce Wayne"}]
+[04.07.2016 17:19:43] [INFO] deserializing response to json string: [{"id":"1","name":"Laser-Eyes"},{"id":"2","name":"Spider-Reflexes"},{"id":"3","name":"Intellect"},{"id":"4","name":"Wall-Crawling"},{"id":"5","name":"Superhuman Strength"},{"id":"6","name":"Balance"},{"id":"7","name":"Spider-Sense"},{"id":"8","name":"Detect Threads"}]
+[04.07.2016 17:19:58] [INFO] deserializing response to json string: [{"id":"1","firstname":"Peter Parker"},{"id":"2","firstname":"Clark Kent"},{"id":"3","firstname":"Bruce Wayne"}]
+[04.07.2016 17:20:06] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Intellect"},{"name":"Wall-Crawling"},{"name":"Superhuman Strength"},{"name":"Balance"},{"name":"Spider-Sense"},{"name":"Detect Threads"}]}
+[04.07.2016 17:20:06] [INFO] deserializing response to json string: {"superpower":[{"name":"Spider-Reflexes"},{"name":"Intellect"},{"name":"Wall-Crawling"},{"name":"Superhuman Strength"},{"name":"Balance"},{"name":"Spider-Sense"},{"name":"Detect Threads"}]}
+[04.07.2016 19:09:51] [INFO] deserializing response to json string: {"id":"1","firstname":"user 1"}
+[04.07.2016 19:09:55] [INFO] deserializing response to json string: {"firstname":"user 1"}
+[04.07.2016 19:09:55] [INFO] deserializing response to json string: {"firstname":"user 1"}
+[04.07.2016 20:39:10] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[04.07.2016 20:39:31] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[04.07.2016 20:42:31] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[04.07.2016 20:42:33] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
