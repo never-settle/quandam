@@ -31,11 +31,7 @@ Class BaseController {
     }
 
     public function setBasicContext() {
-//        $userDao = new UserDAO(1);
-//        $firstname = $userDao->get("firstname");
-//        $this->context["globals"] = array(
-//            $this->keyOf($firstname) => $this->valueOf($firstname)
-//        );
+        //$this->context["globals"] = array($this->keyOf($var) => $this->valueOf($var));
     }
 
     public function render($context) {

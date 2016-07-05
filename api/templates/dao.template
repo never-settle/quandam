@@ -18,7 +18,7 @@ Class [ENTITY_NAME_UC]DAO {
 
     // declare fields here
     [FIELDS]
-    // [RELATION_NAME]s
+    // [RELATION_NAME_PLURAL]
     private $[RELATION_NAME_PLURAL];
 
     /**
@@ -38,7 +38,7 @@ Class [ENTITY_NAME_UC]DAO {
     private function init() {
 
         $this->[ENTITY_NAME_PLURAL] = $this->getAll[ENTITY_NAME_UC_PLURAL]();
-        $this->[RELATION_NAME]s = $this->get[RELATION_NAME_UC]();
+        $this->[RELATION_NAME_PLURAL] = $this->get[RELATION_NAME_UC]();
 
         $[ENTITY_NAME] = $this->get[ENTITY_NAME_UC]();
         if ($[ENTITY_NAME]) {
@@ -84,7 +84,7 @@ Class [ENTITY_NAME_UC]DAO {
     private function get[RELATION_NAME_UC]() {
         $this->db->query("SELECT * FROM [ENTITY_NAME], [RELATION_TABLE], [RELATION_NAME] WHERE [ENTITY_NAME].id = [RELATION_TABLE].[ENTITY_NAME]_id AND [RELATION_TABLE].[RELATION_NAME]_id = [RELATION_NAME].id AND [ENTITY_NAME].id = :id");
         $this->db->bind("id", $this->id);
-        $this->[RELATION_NAME]s = $this->db->resultset();
-        return $this->[RELATION_NAME]s;
+        $this->[RELATION_NAME_PLURAL] = $this->db->resultset();
+        return $this->[RELATION_NAME_PLURAL];
     }
 }

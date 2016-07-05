@@ -140,6 +140,8 @@ Class SetupService {
             $fileContents = str_replace("[ENTITY_NAME_PLURAL]", $entityNamePlural, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME_UC_PLURAL]", ucfirst($entityNamePlural), $fileContents);
             $fileContents = str_replace("[FIELDS]", $field_str, $fileContents);
+
+            // ToDo: There might be more than just one relation ... for ($k ...);
             $fileContents = str_replace("[RELATION_NAME]", $relationName, $fileContents);
             $fileContents = str_replace("[RELATION_NAME_UC]", ucfirst($relationNamePlural), $fileContents);
             $fileContents = str_replace("[RELATION_NAME_PLURAL]", $relationNamePlural, $fileContents);
@@ -172,6 +174,7 @@ Class SetupService {
         } else {
             $relationName = $p[0];
         }
+        return $relationName;
     }
 
     static function factory() {
