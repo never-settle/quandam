@@ -501,3 +501,21 @@
 [04.07.2016 20:39:31] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
 [04.07.2016 20:42:31] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
 [04.07.2016 20:42:33] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[05.07.2016 19:05:57] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:12:46] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:13:47] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:14:26] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:15:09] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:15:45] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:16:04] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:16:39] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:17:04] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 19:54:06] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[05.07.2016 21:23:22] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[05.07.2016 21:23:39] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[05.07.2016 21:23:53] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[05.07.2016 21:26:32] [INFO] deserializing response to json string: {"id":"1","firstname":"user 1"}
+[05.07.2016 21:26:36] [INFO] deserializing response to json string: {"firstname":"user 1"}
+[05.07.2016 21:26:38] [INFO] deserializing response to json string: {"id":"1"}
+[05.07.2016 21:26:40] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]
+[05.07.2016 21:52:41] [INFO] deserializing response to json string: [{"id":"1","firstname":"user 1"},{"id":"2","firstname":"user 2"},{"id":"3","firstname":"user 3"}]

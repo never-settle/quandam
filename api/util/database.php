@@ -21,7 +21,14 @@ class Database {
     private $dbh;
     private $stmt;
 
-    public function __construct() {
+    public function __construct($connectionParams = "") {
+
+        if ($connectionParams) {
+            $this->host = $connectionParams["server-ip"];
+            $this->user = $connectionParams["username"];
+            $this->pass = $connectionParams["password"];
+            $this->dbname = $connectionParams["database-name"];
+        }
 
         if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
             $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbname;
@@ -46,7 +53,6 @@ class Database {
     }
 
     private function mapExceptionasJson() {
-
         $statusCode = 500;
         $rawData = array('error' => 'Connection to Database timed out');
 

@@ -37,6 +37,7 @@ define('RESOURCES', DS . "quandam" . DS . "resources" . DS);
 $include_directories = array(
     API . "util",
     API . "entity",
+    APP . "services",
     API . "controller",
     APP . "controller",
     API . "controller" . DS . "impl",

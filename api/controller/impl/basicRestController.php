@@ -2,7 +2,6 @@
 include_once $_SERVER['DOCUMENT_ROOT'] . "/quandam/app/config.php";
 
 /*
-
 	Quandam API
 
 	This class provides a RESTful API interface for Quandam
@@ -10,7 +9,6 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/quandam/app/config.php";
 	Output: A formatted HTTP response
 
 	Author: Patrick Notar
-
 */
 
 class BasicRestController {

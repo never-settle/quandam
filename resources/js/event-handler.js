@@ -1,6 +1,7 @@
 (function () {
 
-    var vc = viewController.getInstance();
+    var vc  = viewController.getInstance();
+    var api = apiGenerator.getInstance();
     vc.startSetup();
 
     $(document).on("click", ".js-btn-continue", function () {
@@ -9,6 +10,7 @@
 
     $(document).on("click", ".js-btn-generate", function () {
         vc.closeSetup();
+        api.generateController();
     });
 
 })();

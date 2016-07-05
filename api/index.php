@@ -18,17 +18,17 @@ if (strcmp($_SERVER["REQUEST_METHOD"], "GET") === 0) {
 
     switch ($request) {
 
-        case "all-user": {
-            $handler = new UserRestController();
-            $handler->getAllUsers();
+        case "all-member": {
+            $handler = new MemberRestController();
+            $handler->getAllMembers();
             break;
         }
 
         case "user": {
 
-            $handler = new UserRestController();
+            $handler = new MemberRestController();
             if (!$field) {
-                $handler->getUser($_GET["id"]);
+                $handler->getMember($_GET["id"]);
                 break;
             }
 

@@ -1,0 +1,90 @@
+<?php
+include_once $_SERVER['DOCUMENT_ROOT'] . "/[PROJECT_NAME]/app/config.php";
+
+/*
+	[ENTITY_NAME_UC]DAO (Data Access Object)
+
+	This class represents the [ENTITY_NAME_UC]-Entity and contains all Getter and Setter-Methods.
+
+	Author: [YOUR NAME HERE]
+*/
+
+Class [ENTITY_NAME_UC]DAO {
+
+    protected $db;
+
+    // all [ENTITY_NAME_PLURAL]
+    private $[ENTITY_NAME_PLURAL];
+
+    // declare fields here
+    [FIELDS]
+    // [RELATION_NAME]s
+    private $[RELATION_NAME_PLURAL];
+
+    /**
+     * Default constructor, initialize without ID for accessing public methods
+     **/
+    public function __construct($id = 0) {
+        $this->db = new Database();
+        if ($id != 0) {
+            $this->id = $id;
+            $this->init();
+        }
+    }
+
+    /**
+     * Initalizes the [ENTITY_NAME] object with all [RELATION_NAME] datasets
+     **/
+    private function init() {
+
+        $this->[ENTITY_NAME_PLURAL] = $this->getAll[ENTITY_NAME_UC_PLURAL]();
+        $this->[RELATION_NAME]s = $this->get[RELATION_NAME_UC]();
+
+        $[ENTITY_NAME] = $this->get[ENTITY_NAME_UC]();
+        if ($[ENTITY_NAME]) {
+            foreach ($[ENTITY_NAME] as $k => $v) {
+                $this->{$k} = $v;
+            }
+        }
+    }
+
+    /**
+     * Returns an array of all [ENTITY_NAME_PLURAL]
+     * @return array $this->[ENTITY_NAME_PLURAL] all [ENTITY_NAME_PLURAL]
+     **/
+    public function getAll[ENTITY_NAME_UC_PLURAL]() {
+        $this->db->query("SELECT * FROM [ENTITY_NAME]");
+        $this->[ENTITY_NAME_PLURAL] = $this->db->resultset();
+        return $this->[ENTITY_NAME_PLURAL];
+    }
+
+    /**
+     * Returns a key-value pair (as array) of a single [ENTITY_NAME]
+     * @return array $this->[ENTITY_NAME][$this->id - 1] a single [ENTITY_NAME]
+     **/
+    public function get[ENTITY_NAME_UC]() {
+        if (isset($this->[ENTITY_NAME_PLURAL][$this->id - 1])) {
+            return $this->[ENTITY_NAME_PLURAL][$this->id - 1];
+        }
+    }
+
+    /**
+     * Returns a key-value pair (as array) of a requested field by invoking member variables
+     * @param string $field the requested field
+     * @return array $field => $this->{$field} key-value pair of a single [ENTITY_NAME]
+     **/
+    public function get($field) {
+        return array($field => $this->{$field});
+    }
+
+    /**
+     * Returns a set of [RELATION_NAME] data that are related to current [ENTITY_NAME] (by checking $this->id)
+     * @return array $field => all [ENTITY_NAME_PLURAL] related to current [ENTITY_NAME]
+     **/
+    private function get[RELATION_NAME_UC]() {
+        $this->db->query("SELECT * FROM [ENTITY_NAME], [RELATION_TABLE], [RELATION_NAME] WHERE [ENTITY_NAME].id = [RELATION_TABLE].[ENTITY_NAME]_id AND [RELATION_TABLE].[RELATION_NAME]_id = [RELATION_NAME].id AND [ENTITY_NAME].id = :id");
+        $this->db->bind("id", $this->id);
+        $this->[RELATION_NAME]s = $this->db->resultset();
+        return $this->[RELATION_NAME]s;
+    }
+}

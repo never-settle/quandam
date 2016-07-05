@@ -1,12 +1,26 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT'] . "/quandam/app/config.php";
 
-class UserRestController extends BasicRestController implements RestController {
+/*
 
-    function getAllUsers() {
+	UserRestController
 
-        $userDao = new UserDAO();
-        $rawData = $userDao->getAllUser();
+	Interface between DAO and WebService, to react to errors or set status codes
+
+	Author: Patrick Notar
+
+*/
+
+class MemberRestController extends BasicRestController {
+
+    /**
+     * Returns all Users as JSON
+     * @return string $response a JSON-String
+     **/
+    function getAllMembers() {
+
+        $memberDao = new MemberDAO();
+        $rawData = $memberDao->getAllMembers();
 
         if (empty($rawData)) {
             $statusCode = 404;
@@ -20,11 +34,15 @@ class UserRestController extends BasicRestController implements RestController {
         echo $response;
     }
 
+    /**
+     * Returns Get values of a single user as JSON
+     * @param int $id id of the user
+     * @return string $response a JSON-String
+     **/
+    public function getMember($id) {
 
-    public function getUser($id) {
-
-        $userDao = new UserDAO($id);
-        $rawData = $userDao->getUser();
+        $memberDao = new MemberDAO($id);
+        $rawData = $memberDao->getMember();
 
         if (empty($rawData)) {
             $statusCode = 404;
@@ -39,11 +57,16 @@ class UserRestController extends BasicRestController implements RestController {
 
     }
 
-
+    /**
+     * Returns specific field from the user entity
+     * @param int $id id of the user
+     * @param string $field field of the user entity
+     * @return string $response a JSON-String
+     **/
     public function get($field, $id) {
 
-        $userDao = new UserDAO($id);
-        $rawData = $userDao->get($field);
+        $memberDao = new memberDAO($id);
+        $rawData = $memberDao->get($field);
 
         if (empty($rawData[$field])) {
             $statusCode = 404;
