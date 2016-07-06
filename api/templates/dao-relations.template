@@ -1,0 +1,11 @@
+
+    /**
+    * Returns a set of [RELATION_NAME] data that are related to current [ENTITY_NAME] (by checking $this->id)
+    * @return array $field => all [ENTITY_NAME_PLURAL] related to current [ENTITY_NAME]
+    **/
+    private function get[RELATION_NAME_UC]() {
+        $this->db->query("SELECT * FROM [RELATION_NAME], [RELATION_TABLE], [ENTITY_NAME] WHERE [ENTITY_NAME].id = [RELATION_TABLE].[ENTITY_NAME]_id AND [RELATION_TABLE].[RELATION_NAME]_id = [RELATION_NAME].id AND [ENTITY_NAME].id = :id");
+        $this->db->bind("id", $this->id);
+        $this->[RELATION_NAME_PLURAL] = $this->db->resultset();
+        return $this->[RELATION_NAME_PLURAL];
+    }

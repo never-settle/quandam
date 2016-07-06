@@ -76,8 +76,7 @@ Class SetupService {
             $tableName = $allTables[$i]["TABLE_NAME"];
             if (strpos($tableName, '_has_') !== false) {
                 $p = explode("_", $tableName);
-                $this->relations[$p[0]] = $tableName;
-                $this->relations[$p[2]] = $tableName;
+                $this->relations[$p[0]] = $p[2];
             } else {
                 array_push($this->entities, $tableName);
             }
@@ -109,9 +108,11 @@ Class SetupService {
      **/
     public function generateEntities() {
 
+
         foreach ($this->entities as $entity) {
 
             $projectName = "quandam";
+            $relationStr = "";
 
             // simple entity name
             $entityName = $entity;
@@ -119,33 +120,51 @@ Class SetupService {
             $entityNamePlural = $this->pluralize($entityName);
 
             // relational entities
-            $relationName = $this->getRelationName($entityName);
-            $relationNamePlural = $this->pluralize($relationName);
-            $relationTable = $this->relations[$entity];
+            // # bad code
+            foreach ($this->relations as $e => $relation) {
+
+                // lookup relations (does this dao need relational selects?
+                if (strcmp($e, $entity) == 0 || strcmp($relation, $entity) == 0) {
+
+                    // setup environment
+                    // how to decide between address_has_user and user_has_address?
+                    $relationTable = $entity . "_has_" . $relation;
+                    if (strcmp($relation, $entity) == 0) {
+                        $relationTable = $e . "_has_" . $relation;
+                        $relation = $e;
+                    }
+
+                    $relationNamePlural = $this->pluralize($relation);
+                    $relationNamePluralUc = ucfirst($this->pluralize($relation));
+
+                    // get file contents (dao-relations.template)
+                    $relationStr .= file_get_contents(API . "templates" . DS . "dao-relations.template");
+                    $relationStr = str_replace("[RELATION_NAME]", $relation, $relationStr);
+                    $relationStr = str_replace("[RELATION_NAME_UC]", $relationNamePluralUc, $relationStr);
+                    $relationStr = str_replace("[RELATION_NAME_PLURAL]", $relationNamePlural, $relationStr);
+                    $relationStr = str_replace("[RELATION_TABLE]", $relationTable, $relationStr);
+                }
+            }
 
             // get all fields for dao and make them private
             $fields = $this->getFieldsFromEntity($entityName);
-            $field_str = "";
+            $fieldStr = "";
             for ($j = 0; $j < sizeof($fields); $j++) {
-                $field_str .= "private $" . $fields[$j]["COLUMN_NAME"] . ";\n    ";
+                $fieldStr .= "private $" . $fields[$j]["COLUMN_NAME"] . ";\n    ";
             }
 
             // get file contents (template)
             $fileContents = file_get_contents(API . "templates" . DS . "dao.template");
 
             // replace template placeholders with values
+            $fileContents = str_replace("[RELATIONS]", $relationStr, $fileContents);
             $fileContents = str_replace("[PROJECT_NAME]", $projectName, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME]", $entityName, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME_UC]", $entityNameUc, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME_PLURAL]", $entityNamePlural, $fileContents);
             $fileContents = str_replace("[ENTITY_NAME_UC_PLURAL]", ucfirst($entityNamePlural), $fileContents);
-            $fileContents = str_replace("[FIELDS]", $field_str, $fileContents);
+            $fileContents = str_replace("[FIELDS]", $fieldStr, $fileContents);
 
-            // ToDo: There might be more than just one relation ... for ($k ...);
-            $fileContents = str_replace("[RELATION_NAME]", $relationName, $fileContents);
-            $fileContents = str_replace("[RELATION_NAME_UC]", ucfirst($relationNamePlural), $fileContents);
-            $fileContents = str_replace("[RELATION_NAME_PLURAL]", $relationNamePlural, $fileContents);
-            $fileContents = str_replace("[RELATION_TABLE]", $relationTable, $fileContents);
 
             // write file
             file_put_contents(API . "entity" . DS . $entityName . "DAO.php", $fileContents);
@@ -155,26 +174,38 @@ Class SetupService {
 
     }
 
-    public static function pluralize($singular, $plural = null) {
-        $last_letter = strtolower($singular[strlen($singular) - 1]);
-        switch ($last_letter) {
-            case 'y':
-                return substr($singular, 0, -1) . 'ies';
-            case 's':
-                return $singular . 'es';
-            default:
-                return $singular . 's';
+    /**
+     * Returns the Plural of a word
+     * @param String $singular (e.g. address)
+     * @return String $plural (e.g. addresses)
+     **/
+    public static function pluralize($singular) {
+
+        $length = strlen($singular);
+        $lastChar = strtolower($singular[$length - 1]);
+
+        $endings = array(
+            "y" => array($length - 1, 'ies'),
+            "f" => array($length - 1, 'ves'),
+            "s" => array($length, 'es'),
+            "o" => array($length, 'es'),
+            "x" => array($length, 'es'),
+        );
+
+        if (isset($endings[$lastChar])) {
+            $replaceWith = $endings[$lastChar];
+        } else {
+            $replaceWith = array(strlen($singular), 's');
         }
+
+        return substr($singular, 0, $replaceWith[0]) . $replaceWith[1];
+
     }
 
     private function getRelationName($entityName) {
-        $p = explode("_", $this->relations[$entityName]);
-        if (strcmp($p[2], $entityName)) {
-            $relationName = $p[2];
-        } else {
-            $relationName = $p[0];
+        if (isset($this->relations[$entityName])) {
+            return $this->relations[$entityName];
         }
-        return $relationName;
     }
 
     static function factory() {
