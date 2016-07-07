@@ -1,0 +1,4 @@
+
+# [ENTITY_NAME_UC]
+RewriteRule ^rest/1.0/[ENTITY_NAME]$ api/index.php?request=all-[ENTITY_NAME_PLURAL] [nc,qsa]
+RewriteRule ^rest/1.0/[ENTITY_NAME]/([0-9]+)$ api/index.php?request=[ENTITY_NAME]&id=$1 [nc,qsa]

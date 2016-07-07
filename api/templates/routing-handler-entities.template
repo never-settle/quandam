@@ -1,0 +1,21 @@
+
+
+        // [ENTITY_NAME_UC]
+        // ----------------------------------------------------------------------------------------
+        case "all-[ENTITY_NAME_PLURAL]": {
+            $handler = new [ENTITY_NAME_UC]RestController();
+            $handler->getAll[ENTITY_NAME_UC_PLURAL]();
+            break;
+        }
+
+        case "[ENTITY_NAME]": {
+            $handler = new [ENTITY_NAME_UC]RestController();
+            if (!$field) {
+                $handler->get[ENTITY_NAME_UC]($_GET["id"]);
+                break;
+            }
+            $handler->get($field, $_GET["id"]);
+            break;
+        }
+        // ----------------------------------------------------------------------------------------
+

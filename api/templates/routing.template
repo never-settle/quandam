@@ -1,0 +1,13 @@
+# Use the Controller to render the view with context variables
+# -----------------------------------------------------------------------------
+Options +FollowSymlinks
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ app/controller/impl/$1Controller.php [NC,L]
+
+# Rest API Routing
+# -----------------------------------------------------------------------------
+
+# [GET]

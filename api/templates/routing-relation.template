@@ -1,0 +1,1 @@
+RewriteRule ^rest/1.0/[ENTITY_NAME]/([0-9]+)/([RELATION_NAME])$ api/index.php?request=[ENTITY_NAME]&id=$1&field=$2 [nc,qsa]

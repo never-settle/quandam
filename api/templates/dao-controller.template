@@ -3,7 +3,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/" . explode("/", dirname($_SERVER['PH
 
 /*
 
-	MemberRestController
+	[ENTITY_NAME_UC]RestController
 
 	Interface between DAO and WebService, to react to errors or set status codes
 
@@ -11,20 +11,20 @@ include_once $_SERVER['DOCUMENT_ROOT'] . "/" . explode("/", dirname($_SERVER['PH
 
 */
 
-class MemberRestController extends BasicRestController {
+class [ENTITY_NAME_UC]RestController extends BasicRestController {
 
     /**
-     * Returns all members as JSON
+     * Returns all [ENTITY_NAME_PLURAL] as JSON
      * @return string $response a JSON-String
      **/
-    function getAllMembers() {
+    function getAll[ENTITY_NAME_UC_PLURAL]() {
 
-        $memberDao = new MemberDAO();
-        $rawData = $memberDao->getAllMembers();
+        $[ENTITY_NAME]Dao = new [ENTITY_NAME_UC]DAO();
+        $rawData = $[ENTITY_NAME]Dao->getAll[ENTITY_NAME_UC_PLURAL]();
 
         if (empty($rawData)) {
             $statusCode = 404;
-            $rawData = array('error' => 'No members found!');
+            $rawData = array('error' => 'No [ENTITY_NAME_PLURAL] found!');
         } else {
             $statusCode = 200;
         }
@@ -35,18 +35,18 @@ class MemberRestController extends BasicRestController {
     }
 
     /**
-     * Returns Get values of a single member as JSON
-     * @param int $id id of the member
+     * Returns Get values of a single [ENTITY_NAME] as JSON
+     * @param int $id id of the [ENTITY_NAME]
      * @return string $response a JSON-String
      **/
-    public function getMember($id) {
+    public function get[ENTITY_NAME_UC]($id) {
 
-        $memberDao = new MemberDAO($id);
-        $rawData = $memberDao->getMember();
+        $[ENTITY_NAME]Dao = new [ENTITY_NAME_UC]DAO($id);
+        $rawData = $[ENTITY_NAME]Dao->get[ENTITY_NAME_UC]();
 
         if (empty($rawData)) {
             $statusCode = 404;
-            $rawData = array('error' => 'No members found!');
+            $rawData = array('error' => 'No [ENTITY_NAME_PLURAL] found!');
         } else {
             $statusCode = 200;
         }
@@ -58,19 +58,19 @@ class MemberRestController extends BasicRestController {
     }
 
     /**
-     * Returns specific field from the member entity
-     * @param int $id id of the member
-     * @param string $field field of the member entity
+     * Returns specific field from the [ENTITY_NAME] entity
+     * @param int $id id of the [ENTITY_NAME]
+     * @param string $field field of the [ENTITY_NAME] entity
      * @return string $response a JSON-String
      **/
     public function get($field, $id) {
 
-        $memberDao = new MemberDAO($id);
-        $rawData = $memberDao->get($field);
+        $[ENTITY_NAME]Dao = new [ENTITY_NAME_UC]DAO($id);
+        $rawData = $[ENTITY_NAME]Dao->get($field);
 
         if (empty($rawData[$field])) {
             $statusCode = 404;
-            $rawData = array('error' => 'No members found!');
+            $rawData = array('error' => 'No [ENTITY_NAME_PLURAL] found!');
         } else {
             $statusCode = 200;
         }

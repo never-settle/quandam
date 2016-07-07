@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . "/[PROJECT_NAME]/app/config.php";
+include_once $_SERVER['DOCUMENT_ROOT'] . "/" . explode("/", dirname($_SERVER['PHP_SELF']))[1] . "/app/config.php";
 
 /*
 	[ENTITY_NAME_UC]DAO (Data Access Object)
@@ -18,8 +18,8 @@ Class [ENTITY_NAME_UC]DAO {
 
     // declare fields here
     [FIELDS]
-    // [RELATION_NAME_PLURAL]
-    private $[RELATION_NAME_PLURAL];
+    // relational data lists
+[RELATION_MEMBERS]
 
     /**
      * Default constructor, initialize without ID for accessing public methods
@@ -38,7 +38,7 @@ Class [ENTITY_NAME_UC]DAO {
     private function init() {
 
         $this->[ENTITY_NAME_PLURAL] = $this->getAll[ENTITY_NAME_UC_PLURAL]();
-        $this->[RELATION_NAME_PLURAL] = $this->get[RELATION_NAME_UC]();
+[INIT_RELATIONS]
 
         $[ENTITY_NAME] = $this->get[ENTITY_NAME_UC]();
         if ($[ENTITY_NAME]) {
@@ -76,6 +76,5 @@ Class [ENTITY_NAME_UC]DAO {
     public function get($field) {
         return array($field => $this->{$field});
     }
-
     [RELATIONS]
 }

@@ -33,6 +33,16 @@ var viewController = (function () {
                 });
                 wizardLeft.addClass("show-fullscreen");
                 $(".loading").fadeIn(330);
+            },
+
+            showSuccess: function () {
+                window.setTimeout(function () {
+                    $(".spinner").addClass("hide-fullscreen");
+                    $(".spinner").one(transitionIsDone, function () {
+                        $(".spinner").remove();
+                        $(".done").addClass("show-done");
+                    });
+                }, 1500);
             }
 
         }; // return

@@ -14,7 +14,7 @@ var apiGenerator = (function () {
 
         return {
 
-            generateController: function () {
+            generateController: function (showSuccess) {
 
                 var params = {};
                 inputFields.each(function () {
@@ -25,11 +25,9 @@ var apiGenerator = (function () {
                     method: "POST",
                     url: "/quandam/app/services/setupService",
                     data: params,
+                    async: false,
                     success: function (response) {
-                        console.log("success");
-                        console.log(response);
-
-                        // return success for ViewController Actions;
+                        showSuccess(response);
                     },
                     error: function (response) {
                         console.log("error");
