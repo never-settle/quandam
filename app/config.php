@@ -21,14 +21,14 @@ ini_set('display_error', 'On');
 /**
  * Default constants
  **/
-define('PROJECT', 'quandam');
+define('PROJECT', explode("/", dirname($_SERVER['PHP_SELF']))[1]);
 define('DS', DIRECTORY_SEPARATOR);
 define('PS', PATH_SEPARATOR);
 define('BASE', $_SERVER['DOCUMENT_ROOT'] . DS . PROJECT . DS);
 define('API', BASE . "api" . DS);
 define('APP', BASE . "app" . DS);
 define('LOG_OUT', BASE . "api" . DS . "log" . DS . "log.txt");
-define('RESOURCES', DS . "quandam" . DS . "resources" . DS);
+define('RESOURCES', DS . PROJECT . DS . "resources" . DS);
 
 
 /**
@@ -54,7 +54,7 @@ spl_autoload_register();
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', PROJECT);
+define('DB_NAME', "quandam");
 
 
 /**

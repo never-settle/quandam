@@ -597,3 +597,10 @@
 [07.07.2016 18:58:02] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
 [07.07.2016 18:58:05] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
 [07.07.2016 19:33:36] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
+[07.07.2016 19:34:28] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
+[07.07.2016 19:34:29] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
+[07.07.2016 19:34:29] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
+[07.07.2016 19:34:29] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
+[07.07.2016 19:36:10] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
+[07.07.2016 19:36:28] [INFO] deserializing response to json string: {"error":"Connection to Database timed out"}
+[07.07.2016 19:37:19] [INFO] deserializing response to json string: [{"id":"1","city":"Value 1"},{"id":"2","city":"Value 2"},{"id":"3","city":"Value 4"}]
