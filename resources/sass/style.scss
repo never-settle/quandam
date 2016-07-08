@@ -203,24 +203,18 @@ label {
 }
 
 .done {
-  background:  $secondary-background;
   position: absolute;
   display: block;
   left: 0;
-  top: 0;
+  top: -100vh;
   width: 100%;
   height: 100%;
   z-index: 0;
-  opacity: 0;
+  padding: 50px;
 
   h2 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -350px;
-    margin-top: -100px;
+    text-align: center;
     display: inline-block;
-    line-height: calc(100vw / 18);
     font-size: calc(100vw / 18) !important;
   }
 }
@@ -249,13 +243,13 @@ label {
   height: 100%;
   width: 100%;
   opacity: 0;
-  @include animate-out-circ(1700ms);
+  @include animate-out-circ(1660ms);
 }
 
-.show-done {
-  opacity: 1;
+.show-message {
+  top: 0;
   z-index: 5;
-  @include animate-ease-in-out-back(1500ms);
+  @include animate-ease-in-out-back(660ms);
 }
 
 .fade-out {

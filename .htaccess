@@ -12,168 +12,41 @@ RewriteRule ^([^\.]+)$ app/controller/impl/$1Controller.php [NC,L]
 
 # [GET]
 
-# Ability
-RewriteRule ^rest/1.0/ability$ api/index.php?request=all-abilities [nc,qsa]
-RewriteRule ^rest/1.0/ability/([0-9]+)$ api/index.php?request=ability&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/ability/([0-9]+)/(id)$ api/index.php?request=ability&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/ability/([0-9]+)/(name)$ api/index.php?request=ability&id=$1&field=$2 [nc,qsa]
+# Address
+RewriteRule ^rest/1.0/address$ api/index.php?request=all-addresses [nc,qsa]
+RewriteRule ^rest/1.0/address/([0-9]+)$ api/index.php?request=address&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/address/([0-9]+)/(country)$ api/index.php?request=address&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/address/([0-9]+)/(member)$ api/index.php?request=address&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/address/([0-9]+)/(party)$ api/index.php?request=address&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/address/([0-9]+)/(id)$ api/index.php?request=address&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/address/([0-9]+)/(city)$ api/index.php?request=address&id=$1&field=$2 [nc,qsa]
 
-# Achievement
-RewriteRule ^rest/1.0/achievement$ api/index.php?request=all-achievements [nc,qsa]
-RewriteRule ^rest/1.0/achievement/([0-9]+)$ api/index.php?request=achievement&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/achievement/([0-9]+)/(id)$ api/index.php?request=achievement&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/achievement/([0-9]+)/(name)$ api/index.php?request=achievement&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/achievement/([0-9]+)/(image)$ api/index.php?request=achievement&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/achievement/([0-9]+)/(title)$ api/index.php?request=achievement&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/achievement/([0-9]+)/(experience)$ api/index.php?request=achievement&id=$1&field=$2 [nc,qsa]
+# Box
+RewriteRule ^rest/1.0/box$ api/index.php?request=all-boxes [nc,qsa]
+RewriteRule ^rest/1.0/box/([0-9]+)$ api/index.php?request=box&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/box/([0-9]+)/(id)$ api/index.php?request=box&id=$1&field=$2 [nc,qsa]
 
-# Goal
-RewriteRule ^rest/1.0/goal$ api/index.php?request=all-goals [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)$ api/index.php?request=goal&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)/(id)$ api/index.php?request=goal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)/(name)$ api/index.php?request=goal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)/(description)$ api/index.php?request=goal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)/(goal_type)$ api/index.php?request=goal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)/(accomplish_date)$ api/index.php?request=goal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/goal/([0-9]+)/(accomplished)$ api/index.php?request=goal&id=$1&field=$2 [nc,qsa]
+# Country
+RewriteRule ^rest/1.0/country$ api/index.php?request=all-countries [nc,qsa]
+RewriteRule ^rest/1.0/country/([0-9]+)$ api/index.php?request=country&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/country/([0-9]+)/(address)$ api/index.php?request=country&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/country/([0-9]+)/(id)$ api/index.php?request=country&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/country/([0-9]+)/(land_code)$ api/index.php?request=country&id=$1&field=$2 [nc,qsa]
 
-# Grade
-RewriteRule ^rest/1.0/grade$ api/index.php?request=all-grades [nc,qsa]
-RewriteRule ^rest/1.0/grade/([0-9]+)$ api/index.php?request=grade&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/grade/([0-9]+)/(id)$ api/index.php?request=grade&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/grade/([0-9]+)/(experience)$ api/index.php?request=grade&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/grade/([0-9]+)/(grade)$ api/index.php?request=grade&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/grade/([0-9]+)/(points)$ api/index.php?request=grade&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/grade/([0-9]+)/(common)$ api/index.php?request=grade&id=$1&field=$2 [nc,qsa]
+# Member
+RewriteRule ^rest/1.0/member$ api/index.php?request=all-members [nc,qsa]
+RewriteRule ^rest/1.0/member/([0-9]+)$ api/index.php?request=member&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/member/([0-9]+)/(address)$ api/index.php?request=member&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/member/([0-9]+)/(id)$ api/index.php?request=member&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/member/([0-9]+)/(firstname)$ api/index.php?request=member&id=$1&field=$2 [nc,qsa]
 
-# Level
-RewriteRule ^rest/1.0/level$ api/index.php?request=all-levels [nc,qsa]
-RewriteRule ^rest/1.0/level/([0-9]+)$ api/index.php?request=level&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/level/([0-9]+)/(id)$ api/index.php?request=level&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/level/([0-9]+)/(experience_needed)$ api/index.php?request=level&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/level/([0-9]+)/(level)$ api/index.php?request=level&id=$1&field=$2 [nc,qsa]
+# Party
+RewriteRule ^rest/1.0/party$ api/index.php?request=all-parties [nc,qsa]
+RewriteRule ^rest/1.0/party/([0-9]+)$ api/index.php?request=party&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/party/([0-9]+)/(address)$ api/index.php?request=party&id=$1&field=$2 [nc,qsa]
+RewriteRule ^rest/1.0/party/([0-9]+)/(id)$ api/index.php?request=party&id=$1&field=$2 [nc,qsa]
 
-# Mentor
-RewriteRule ^rest/1.0/mentor$ api/index.php?request=all-mentors [nc,qsa]
-RewriteRule ^rest/1.0/mentor/([0-9]+)$ api/index.php?request=mentor&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/mentor/([0-9]+)/(id)$ api/index.php?request=mentor&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/mentor/([0-9]+)/(user_fk)$ api/index.php?request=mentor&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/mentor/([0-9]+)/(image)$ api/index.php?request=mentor&id=$1&field=$2 [nc,qsa]
-
-# Mentorhassubject
-RewriteRule ^rest/1.0/mentorhassubject$ api/index.php?request=all-mentorhassubjects [nc,qsa]
-RewriteRule ^rest/1.0/mentorhassubject/([0-9]+)$ api/index.php?request=mentorhassubject&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/mentorhassubject/([0-9]+)/(id)$ api/index.php?request=mentorhassubject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/mentorhassubject/([0-9]+)/(mentor_fk)$ api/index.php?request=mentorhassubject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/mentorhassubject/([0-9]+)/(subject_fk)$ api/index.php?request=mentorhassubject&id=$1&field=$2 [nc,qsa]
-
-# Parent
-RewriteRule ^rest/1.0/parent$ api/index.php?request=all-parents [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)$ api/index.php?request=parent&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)/(id)$ api/index.php?request=parent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)/(user_fk)$ api/index.php?request=parent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)/(iban)$ api/index.php?request=parent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)/(sex)$ api/index.php?request=parent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)/(bic)$ api/index.php?request=parent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parent/([0-9]+)/(bankname)$ api/index.php?request=parent&id=$1&field=$2 [nc,qsa]
-
-# Parenthasstudent
-RewriteRule ^rest/1.0/parenthasstudent$ api/index.php?request=all-parenthasstudents [nc,qsa]
-RewriteRule ^rest/1.0/parenthasstudent/([0-9]+)$ api/index.php?request=parenthasstudent&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/parenthasstudent/([0-9]+)/(id)$ api/index.php?request=parenthasstudent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parenthasstudent/([0-9]+)/(parent_fk)$ api/index.php?request=parenthasstudent&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/parenthasstudent/([0-9]+)/(student_fk)$ api/index.php?request=parenthasstudent&id=$1&field=$2 [nc,qsa]
-
-# Schoolclass
-RewriteRule ^rest/1.0/schoolclass$ api/index.php?request=all-schoolclasses [nc,qsa]
-RewriteRule ^rest/1.0/schoolclass/([0-9]+)$ api/index.php?request=schoolclass&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/schoolclass/([0-9]+)/(id)$ api/index.php?request=schoolclass&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/schoolclass/([0-9]+)/(name)$ api/index.php?request=schoolclass&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/schoolclass/([0-9]+)/(common)$ api/index.php?request=schoolclass&id=$1&field=$2 [nc,qsa]
-
-# Student
-RewriteRule ^rest/1.0/student$ api/index.php?request=all-students [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)$ api/index.php?request=student&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(id)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(user_fk)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(image)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(experience)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(level_fk)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(schoolname)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/student/([0-9]+)/(schoolclass_fk)$ api/index.php?request=student&id=$1&field=$2 [nc,qsa]
-
-# Studenthasability
-RewriteRule ^rest/1.0/studenthasability$ api/index.php?request=all-studenthasabilities [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)$ api/index.php?request=studenthasability&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)/(id)$ api/index.php?request=studenthasability&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)/(student_fk)$ api/index.php?request=studenthasability&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)/(ability_fk)$ api/index.php?request=studenthasability&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)/(subject_fk)$ api/index.php?request=studenthasability&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)/(value)$ api/index.php?request=studenthasability&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasability/([0-9]+)/(weighting)$ api/index.php?request=studenthasability&id=$1&field=$2 [nc,qsa]
-
-# Studenthasachievement
-RewriteRule ^rest/1.0/studenthasachievement$ api/index.php?request=all-studenthasachievements [nc,qsa]
-RewriteRule ^rest/1.0/studenthasachievement/([0-9]+)$ api/index.php?request=studenthasachievement&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasachievement/([0-9]+)/(id)$ api/index.php?request=studenthasachievement&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasachievement/([0-9]+)/(student_fk)$ api/index.php?request=studenthasachievement&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasachievement/([0-9]+)/(achievement_fk)$ api/index.php?request=studenthasachievement&id=$1&field=$2 [nc,qsa]
-
-# Studenthasgoal
-RewriteRule ^rest/1.0/studenthasgoal$ api/index.php?request=all-studenthasgoals [nc,qsa]
-RewriteRule ^rest/1.0/studenthasgoal/([0-9]+)$ api/index.php?request=studenthasgoal&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasgoal/([0-9]+)/(id)$ api/index.php?request=studenthasgoal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasgoal/([0-9]+)/(student_fk)$ api/index.php?request=studenthasgoal&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasgoal/([0-9]+)/(goal_fk)$ api/index.php?request=studenthasgoal&id=$1&field=$2 [nc,qsa]
-
-# Studenthasmentor
-RewriteRule ^rest/1.0/studenthasmentor$ api/index.php?request=all-studenthasmentors [nc,qsa]
-RewriteRule ^rest/1.0/studenthasmentor/([0-9]+)$ api/index.php?request=studenthasmentor&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasmentor/([0-9]+)/(id)$ api/index.php?request=studenthasmentor&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasmentor/([0-9]+)/(student_fk)$ api/index.php?request=studenthasmentor&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasmentor/([0-9]+)/(mentor_fk)$ api/index.php?request=studenthasmentor&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthasmentor/([0-9]+)/(subject_fk)$ api/index.php?request=studenthasmentor&id=$1&field=$2 [nc,qsa]
-
-# Studenthassubject
-RewriteRule ^rest/1.0/studenthassubject$ api/index.php?request=all-studenthassubjects [nc,qsa]
-RewriteRule ^rest/1.0/studenthassubject/([0-9]+)$ api/index.php?request=studenthassubject&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/studenthassubject/([0-9]+)/(student_fk)$ api/index.php?request=studenthassubject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthassubject/([0-9]+)/(subject_fk)$ api/index.php?request=studenthassubject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthassubject/([0-9]+)/(schoolclass_fk)$ api/index.php?request=studenthassubject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthassubject/([0-9]+)/(grade_fk)$ api/index.php?request=studenthassubject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/studenthassubject/([0-9]+)/(experience)$ api/index.php?request=studenthassubject&id=$1&field=$2 [nc,qsa]
-
-# Subject
-RewriteRule ^rest/1.0/subject$ api/index.php?request=all-subjects [nc,qsa]
-RewriteRule ^rest/1.0/subject/([0-9]+)$ api/index.php?request=subject&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/subject/([0-9]+)/(id)$ api/index.php?request=subject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/subject/([0-9]+)/(name)$ api/index.php?request=subject&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/subject/([0-9]+)/(category)$ api/index.php?request=subject&id=$1&field=$2 [nc,qsa]
-
-# User
-RewriteRule ^rest/1.0/user$ api/index.php?request=all-users [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)$ api/index.php?request=user&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(id)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(firstname)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(lastname)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(email)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(password)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(city)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(postcode)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(street)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(phone)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(mobile)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(image)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(type)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(signed_in)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/user/([0-9]+)/(created_at)$ api/index.php?request=user&id=$1&field=$2 [nc,qsa]
-
-# Userhasmessage
-RewriteRule ^rest/1.0/userhasmessage$ api/index.php?request=all-userhasmessages [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)$ api/index.php?request=userhasmessage&id=$1 [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)/(id)$ api/index.php?request=userhasmessage&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)/(sender_fk)$ api/index.php?request=userhasmessage&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)/(receiver_fk)$ api/index.php?request=userhasmessage&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)/(message)$ api/index.php?request=userhasmessage&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)/(sent_date)$ api/index.php?request=userhasmessage&id=$1&field=$2 [nc,qsa]
-RewriteRule ^rest/1.0/userhasmessage/([0-9]+)/(read)$ api/index.php?request=userhasmessage&id=$1&field=$2 [nc,qsa]
+# Thief
+RewriteRule ^rest/1.0/thief$ api/index.php?request=all-thieves [nc,qsa]
+RewriteRule ^rest/1.0/thief/([0-9]+)$ api/index.php?request=thief&id=$1 [nc,qsa]
+RewriteRule ^rest/1.0/thief/([0-9]+)/(id)$ api/index.php?request=thief&id=$1&field=$2 [nc,qsa]

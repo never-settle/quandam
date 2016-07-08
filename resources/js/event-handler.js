@@ -1,5 +1,6 @@
 (function () {
 
+    "use strict;"
     console.log("EventHandler is listening ...");
     var vc  = viewController.getInstance();
     var api = apiGenerator.getInstance();
@@ -12,7 +13,7 @@
 
     $(document).on("click", ".js-btn-generate", function () {
         vc.closeSetup();
-        api.generateController(vc.showSuccess());
+        api.generateController(vc.showMessage);
     });
 
     $(document).on("keyup", ".wizard input", function (e) {
@@ -22,7 +23,7 @@
                 vc.continueSetup();
             } else {
                 vc.closeSetup();
-                api.generateController(vc.showSuccess());
+                api.generateController(vc.showMessage);
             }
         }
     });

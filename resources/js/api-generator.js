@@ -1,5 +1,6 @@
 var apiGenerator = (function () {
 
+    "use strict;"
     var instance;
 
     function init() {
@@ -14,27 +15,26 @@ var apiGenerator = (function () {
 
         return {
 
-            generateController: function (showSuccess) {
+            generateController: function (showMessage) {
+
+                var callback = showMessage;
 
                 var params = {};
                 inputFields.each(function () {
                     params[$(this).attr("name")] = $(this).val();
                 });
 
-                $.ajax({
+                $.when($.ajax({
                     method: "POST",
                     url: "/quandam/app/services/setupService",
-                    data: params,
-                    async: false,
-                    success: function (response) {
-                        showSuccess(response);
-                    },
-                    error: function (response) {
-                        console.log("error");
-                        console.log(response);
+                    data: params
+                })).then(function (data) {
+                    console.log(data);
 
-                        // return error for ViewController Actions;
-                    }
+                    var json = JSON.parse(data);
+                    console.log(json);
+
+                    callback(json.status);
                 });
 
             }

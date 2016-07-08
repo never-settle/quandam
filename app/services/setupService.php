@@ -29,16 +29,24 @@ Class SetupService {
     private $databaseName;
 
     public function __construct() {
-        $this->db = new Database();
-        $this->setupDatabaseConnection();
-        $this->assignTables();
-        $this->generateEntities();
-        $this->generateEntityController();
-        $this->generateRewriteRules();
-        $this->generateRESTHandler();
+        try {
 
-        $response["success"] = "Successfully generated REST-API";
-        echo json_encode($response);
+            $this->db = new Database();
+
+            $this->setupDatabaseConnection();
+            $this->assignTables();
+            $this->generateEntities();
+            $this->generateEntityController();
+            $this->generateRewriteRules();
+            $this->generateRESTHandler();
+
+            $response["status"] = "We're done! Enjoy coding";
+            echo json_encode($response);
+
+        } catch (Exception $e) {
+            $response["status"] = "Something went wrong :(!";
+            echo json_encode($response);
+        }
     }
 
 
@@ -47,12 +55,10 @@ Class SetupService {
      **/
     public function setupDatabaseConnection() {
         $this->db = new Database($_POST);
-
         $this->serverIp = $_POST['server-ip'];
         $this->username = $_POST['username'];
         $this->password = $_POST['password'];
         $this->databaseName = $_POST['database-name'];
-
     }
 
     /**
@@ -89,6 +95,7 @@ Class SetupService {
 
     /**
      * Generates RestHandler-File to route requests to the right controller
+     * (index.php)
      */
     private function generateRESTHandler() {
 
@@ -102,7 +109,6 @@ Class SetupService {
             $entityHandle = str_replace("[ENTITY_NAME_UC]", ucfirst($entity), $entityHandle);
             $entityHandle = str_replace("[ENTITY_NAME_UC_PLURAL]", ucfirst($this->pluralize($entity)), $entityHandle);
             $entityHandle = str_replace("[ENTITY_NAME]", $entity, $entityHandle);
-
         }
 
         $handlerFile = str_replace("[ENTITIES]", $entityHandle, $handlerFile);
@@ -114,6 +120,7 @@ Class SetupService {
 
     /**
      * Generates RewriteRules
+     * (.htaccess)
      */
     private function generateRewriteRules() {
 
@@ -147,7 +154,7 @@ Class SetupService {
                     }
 
                     $rewriteRules = str_replace("[ENTITY_NAME]", $entity, $rewriteRules);
-                    $rewriteRules = str_replace("[RELATION_NAME]", $this->pluralize($relation), $rewriteRules);
+                    $rewriteRules = str_replace("[RELATION_NAME]", $relation, $rewriteRules);
                 }
             }
 
@@ -238,8 +245,8 @@ Class SetupService {
                     }
 
                     // relations going to be returned as member variables from the DAO
-                    $relationFields .= "    private \$" . $this->pluralize($relation) . ";\n";
-                    $initRelations .= "        \$this->" . $this->pluralize($relation) . " = \$this->get" . ucfirst($this->pluralize($relation)) . "();\n";
+                    $relationFields .= "    private \$" . $relation . ";\n";
+                    $initRelations .= "        \$this->" . $relation . " = \$this->get" . ucfirst($this->pluralize($relation)) . "();\n";
 
                     $relationNamePlural = $this->pluralize($relation);
                     $relationNamePluralUc = ucfirst($this->pluralize($relation));

@@ -1,5 +1,6 @@
 var viewController = (function () {
 
+    "use strict;"
     var instance;
 
     function init() {
@@ -12,6 +13,8 @@ var viewController = (function () {
         var wizardRight = $('.wizard-right');
         var wizardLeft = $('.wizard-left');
         var loading = $(".loading");
+
+        var spinner = $(".spinner");
 
         // public variables & functions
         return {
@@ -35,16 +38,17 @@ var viewController = (function () {
                 $(".loading").fadeIn(330);
             },
 
-            showSuccess: function () {
+            showMessage: function (message) {
                 window.setTimeout(function () {
-                    $(".spinner").addClass("hide-fullscreen");
-                    $(".spinner").one(transitionIsDone, function () {
-                        $(".spinner").remove();
-                        $(".done").addClass("show-done");
+                    spinner.addClass("hide-fullscreen");
+                    spinner.one(transitionIsDone, function () {
+                        spinner.remove();
+                        console.log(message);
+                        $(".done > .message-box").text(message);
+                        $(".done").addClass("show-message");
                     });
                 }, 1500);
             }
-
         }; // return
 
     }; // init
@@ -54,11 +58,9 @@ var viewController = (function () {
         // Get the Singleton instance if one exists
         // or create one if it doesn't
         getInstance: function () {
-
             if (!instance) {
                 instance = init();
             }
-
             return instance;
         }
 
