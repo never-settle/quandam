@@ -23,17 +23,13 @@ Class SetupService {
     private $relations;
 
     // Database settings are posted from you
-    private $serverIp;
-    private $username;
-    private $password;
     private $databaseName;
 
     public function __construct() {
+
         try {
 
-            $this->db = new Database();
-
-            $this->setupDatabaseConnection();
+            $this->db = $this->setupDatabaseConnection();
             $this->assignTables();
             $this->generateEntities();
             $this->generateEntityController();
@@ -44,9 +40,12 @@ Class SetupService {
             echo json_encode($response);
 
         } catch (Exception $e) {
-            $response["status"] = "Something went wrong :(!";
+
+            $response["status"] = "Something went wrong...";
             echo json_encode($response);
+
         }
+
     }
 
 
@@ -54,11 +53,18 @@ Class SetupService {
      * Overrides Database-Config from config.php file for setup purposes
      **/
     public function setupDatabaseConnection() {
-        $this->db = new Database($_POST);
-        $this->serverIp = $_POST['server-ip'];
-        $this->username = $_POST['username'];
-        $this->password = $_POST['password'];
+
+        $config = file_get_contents(APP . "config.php");
+        $config = str_replace("[DB_HOST]", $_POST['server-ip'] ?? "Error", $config);
+        $config = str_replace("[DB_USER]", $_POST['username'] ?? "Error", $config);
+        $config = str_replace("[DB_PASS]", $_POST['password'] ?? "Error", $config);
+        $config = str_replace("[DB_NAME]", $_POST['database-name'] ?? "Error", $config);
+
+        // write file
+        file_put_contents(APP . "config.php", $config);
+
         $this->databaseName = $_POST['database-name'];
+        return new Database($_POST);
     }
 
     /**
